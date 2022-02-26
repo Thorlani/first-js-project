@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: black;
+    color: #ffffff;
+}
+
+h1 {
+    position: relative;
+    top: 4rem;
+    font-weight: 800;
+    font-size: 64px;
+}
+
+h2 {
+    position: relative;
+    top: 3rem;
+    font-size: 74px;
+}
+
+button {
+    position: relative;
+    top: 4rem;
+    padding: 12px;
+    margin-left: 3rem;
+    left: -2rem;
+    color: #ffffff;
+}
+
+#increment-btn {
+    background: darkseagreen;
+}
+
+#save-el {
+    background: darksalmon;
+}
+
+#restart-el {
+    background: darkslateblue;
+}
+
+p {
+    margin-top: 8rem;
+}
+
+
+@media (max-width: 425px) {
+    button {
+        margin-left: .5rem;
+        left: 0rem;
+        position: relative;
+    }
+}
